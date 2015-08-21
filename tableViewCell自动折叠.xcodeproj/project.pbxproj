@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCEEAD721B1AFB4B00090E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEAD711B1AFB4B00090E10 /* main.m */; };
+		CCEEAD751B1AFB4B00090E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEAD741B1AFB4B00090E10 /* AppDelegate.m */; };
+		CCEEAD781B1AFB4B00090E10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEAD771B1AFB4B00090E10 /* ViewController.m */; };
+		CCEEAD7B1B1AFB4B00090E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEEAD791B1AFB4B00090E10 /* Main.storyboard */; };
+		CCEEAD7D1B1AFB4B00090E10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEEAD7C1B1AFB4B00090E10 /* Images.xcassets */; };
+		CCEEAD801B1AFB4B00090E10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEEAD7E1B1AFB4B00090E10 /* LaunchScreen.xib */; };
+		CCEEAD8C1B1AFB4B00090E10 /* tableViewCell____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEAD8B1B1AFB4B00090E10 /* tableViewCell____Tests.m */; };
+		CCEEAD961B1B01DC00090E10 /* henderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEEAD951B1B01DC00090E10 /* henderView.xib */; };
+		CCEEAD991B1B023100090E10 /* tableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEAD981B1B023100090E10 /* tableViewHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEEAD861B1AFB4B00090E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEEAD641B1AFB4A00090E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEEAD6B1B1AFB4A00090E10;
+			remoteInfo = "tableViewCell自动折叠";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCEEAD6C1B1AFB4A00090E10 /* tableViewCell自动折叠.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableViewCell自动折叠.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEEAD701B1AFB4B00090E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEEAD711B1AFB4B00090E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCEEAD731B1AFB4B00090E10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCEEAD741B1AFB4B00090E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCEEAD761B1AFB4B00090E10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCEEAD771B1AFB4B00090E10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCEEAD7A1B1AFB4B00090E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCEEAD7C1B1AFB4B00090E10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCEEAD7F1B1AFB4B00090E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCEEAD851B1AFB4B00090E10 /* tableViewCell自动折叠Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableViewCell自动折叠Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEEAD8A1B1AFB4B00090E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEEAD8B1B1AFB4B00090E10 /* tableViewCell____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "tableViewCell____Tests.m"; sourceTree = "<group>"; };
+		CCEEAD951B1B01DC00090E10 /* henderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = henderView.xib; sourceTree = "<group>"; };
+		CCEEAD971B1B023100090E10 /* tableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewHeaderView.h; sourceTree = "<group>"; };
+		CCEEAD981B1B023100090E10 /* tableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEEAD691B1AFB4A00090E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEEAD821B1AFB4B00090E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEEAD631B1AFB4A00090E10 = {
+			isa = PBXGroup;
+			children = (
+				CCEEAD6E1B1AFB4A00090E10 /* tableViewCell自动折叠 */,
+				CCEEAD881B1AFB4B00090E10 /* tableViewCell自动折叠Tests */,
+				CCEEAD6D1B1AFB4A00090E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEEAD6D1B1AFB4A00090E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEEAD6C1B1AFB4A00090E10 /* tableViewCell自动折叠.app */,
+				CCEEAD851B1AFB4B00090E10 /* tableViewCell自动折叠Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEEAD6E1B1AFB4A00090E10 /* tableViewCell自动折叠 */ = {
+			isa = PBXGroup;
+			children = (
+				CCEEAD731B1AFB4B00090E10 /* AppDelegate.h */,
+				CCEEAD741B1AFB4B00090E10 /* AppDelegate.m */,
+				CCEEAD761B1AFB4B00090E10 /* ViewController.h */,
+				CCEEAD771B1AFB4B00090E10 /* ViewController.m */,
+				CCEEAD791B1AFB4B00090E10 /* Main.storyboard */,
+				CCEEAD971B1B023100090E10 /* tableViewHeaderView.h */,
+				CCEEAD981B1B023100090E10 /* tableViewHeaderView.m */,
+				CCEEAD951B1B01DC00090E10 /* henderView.xib */,
+				CCEEAD7C1B1AFB4B00090E10 /* Images.xcassets */,
+				CCEEAD7E1B1AFB4B00090E10 /* LaunchScreen.xib */,
+				CCEEAD6F1B1AFB4B00090E10 /* Supporting Files */,
+			);
+			path = "tableViewCell自动折叠";
+			sourceTree = "<group>";
+		};
+		CCEEAD6F1B1AFB4B00090E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEEAD701B1AFB4B00090E10 /* Info.plist */,
+				CCEEAD711B1AFB4B00090E10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCEEAD881B1AFB4B00090E10 /* tableViewCell自动折叠Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEEAD8B1B1AFB4B00090E10 /* tableViewCell____Tests.m */,
+				CCEEAD891B1AFB4B00090E10 /* Supporting Files */,
+			);
+			path = "tableViewCell自动折叠Tests";
+			sourceTree = "<group>";
+		};
+		CCEEAD891B1AFB4B00090E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEEAD8A1B1AFB4B00090E10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEEAD6B1B1AFB4A00090E10 /* tableViewCell自动折叠 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEEAD8F1B1AFB4B00090E10 /* Build configuration list for PBXNativeTarget "tableViewCell自动折叠" */;
+			buildPhases = (
+				CCEEAD681B1AFB4A00090E10 /* Sources */,
+				CCEEAD691B1AFB4A00090E10 /* Frameworks */,
+				CCEEAD6A1B1AFB4A00090E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tableViewCell自动折叠";
+			productName = "tableViewCell自动折叠";
+			productReference = CCEEAD6C1B1AFB4A00090E10 /* tableViewCell自动折叠.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEEAD841B1AFB4B00090E10 /* tableViewCell自动折叠Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEEAD921B1AFB4B00090E10 /* Build configuration list for PBXNativeTarget "tableViewCell自动折叠Tests" */;
+			buildPhases = (
+				CCEEAD811B1AFB4B00090E10 /* Sources */,
+				CCEEAD821B1AFB4B00090E10 /* Frameworks */,
+				CCEEAD831B1AFB4B00090E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEEAD871B1AFB4B00090E10 /* PBXTargetDependency */,
+			);
+			name = "tableViewCell自动折叠Tests";
+			productName = "tableViewCell自动折叠Tests";
+			productReference = CCEEAD851B1AFB4B00090E10 /* tableViewCell自动折叠Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEEAD641B1AFB4A00090E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = HY;
+				TargetAttributes = {
+					CCEEAD6B1B1AFB4A00090E10 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CCEEAD841B1AFB4B00090E10 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CCEEAD6B1B1AFB4A00090E10;
+					};
+				};
+			};
+			buildConfigurationList = CCEEAD671B1AFB4A00090E10 /* Build configuration list for PBXProject "tableViewCell自动折叠" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEEAD631B1AFB4A00090E10;
+			productRefGroup = CCEEAD6D1B1AFB4A00090E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEEAD6B1B1AFB4A00090E10 /* tableViewCell自动折叠 */,
+				CCEEAD841B1AFB4B00090E10 /* tableViewCell自动折叠Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEEAD6A1B1AFB4A00090E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEEAD961B1B01DC00090E10 /* henderView.xib in Resources */,
+				CCEEAD7B1B1AFB4B00090E10 /* Main.storyboard in Resources */,
+				CCEEAD801B1AFB4B00090E10 /* LaunchScreen.xib in Resources */,
+				CCEEAD7D1B1AFB4B00090E10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEEAD831B1AFB4B00090E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEEAD681B1AFB4A00090E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEEAD781B1AFB4B00090E10 /* ViewController.m in Sources */,
+				CCEEAD751B1AFB4B00090E10 /* AppDelegate.m in Sources */,
+				CCEEAD721B1AFB4B00090E10 /* main.m in Sources */,
+				CCEEAD991B1B023100090E10 /* tableViewHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEEAD811B1AFB4B00090E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEEAD8C1B1AFB4B00090E10 /* tableViewCell____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEEAD871B1AFB4B00090E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEEAD6B1B1AFB4A00090E10 /* tableViewCell自动折叠 */;
+			targetProxy = CCEEAD861B1AFB4B00090E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEEAD791B1AFB4B00090E10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEEAD7A1B1AFB4B00090E10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCEEAD7E1B1AFB4B00090E10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEEAD7F1B1AFB4B00090E10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEEAD8D1B1AFB4B00090E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCEEAD8E1B1AFB4B00090E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEEAD901B1AFB4B00090E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tableViewCell自动折叠/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCEEAD911B1AFB4B00090E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tableViewCell自动折叠/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCEEAD931B1AFB4B00090E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tableViewCell自动折叠Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewCell自动折叠.app/tableViewCell自动折叠";
+			};
+			name = Debug;
+		};
+		CCEEAD941B1AFB4B00090E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tableViewCell自动折叠Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewCell自动折叠.app/tableViewCell自动折叠";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEEAD671B1AFB4A00090E10 /* Build configuration list for PBXProject "tableViewCell自动折叠" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEEAD8D1B1AFB4B00090E10 /* Debug */,
+				CCEEAD8E1B1AFB4B00090E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEEAD8F1B1AFB4B00090E10 /* Build configuration list for PBXNativeTarget "tableViewCell自动折叠" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEEAD901B1AFB4B00090E10 /* Debug */,
+				CCEEAD911B1AFB4B00090E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCEEAD921B1AFB4B00090E10 /* Build configuration list for PBXNativeTarget "tableViewCell自动折叠Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEEAD931B1AFB4B00090E10 /* Debug */,
+				CCEEAD941B1AFB4B00090E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEEAD641B1AFB4A00090E10 /* Project object */;
+}
